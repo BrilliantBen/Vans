@@ -1,0 +1,62 @@
+.header {
+	background: url('../assets/styling/header/header.jpg');
+	width: 956px;
+	height: 451px;
+
+	h1, h2 {
+		display: none;
+	}
+
+	.subnav {
+		float: right;
+	}
+
+	.like {
+		background-image: url('../assets/styling/header/like.png');
+		width: 26px;
+		height: 26px;
+		margin: 50px 25px 0 0;
+		float: right;
+	}
+
+	.logos {
+		margin: 410px 20px 0 0;
+
+		a {
+			display: inline-block;
+			width:78px;
+			height: 25px;
+			background-image: url('../assets/styling/header/logosprite.png');
+			margin-left: 20px;
+			display: inline-block;
+
+			span {
+				display: none;
+			}
+
+			&:hover {
+				background-position: 0 65px;
+			}
+		}
+	}
+
+	a:last-child {
+		margin-bottom: 2px;
+		width: 49px;
+		height: 20px;
+		background-position: 0 40px;
+
+
+		&:hover {
+			background-position: 0 20px;
+		}
+	}
+}
+
+
+.app {
+	position: absolute;
+	top: 0;
+	margin-left: 385px;
+	z-index: 10;
+}

@@ -1,0 +1,50 @@
+nav {
+	font-family: sean, serif;
+	font-size: 2em;
+	display: inline-block;
+
+.active a {
+	color: $yellow
+}
+
+	a {
+		color: $white;
+		text-decoration: none;
+	}
+
+	a:hover {
+		color: $yellow;
+	}
+
+	ul {
+		margin: 15px 0 0 2px;
+		background-image: url('../assets/styling/nav/nav.jpg');
+		width: 953px;
+		height: 65px;
+	}
+
+	li {
+		display: inline-block;
+		margin: 23px 150px 0 0;
+
+		&:first-child {
+			margin-left: 170px;
+			margin-right: 225px;
+		}
+
+		&:last-child {
+			margin-right: 0;
+			margin-left: 90px;
+		}
+	}
+}
+
+.pen {
+	background-image: url('../assets/styling/nav/pen.png');
+	display: inline-block;
+	width: 83px;
+	height: 367px;
+	margin: 440px 0 0 10px;
+	position: absolute;
+}
+

@@ -1,0 +1,15 @@
+@import 'compass/reset';
+@import 'mixins';
+@import 'spritesheets';
+
+@import 'compass/utilities/general/clearfix';
+$yellow: #e1c33a;
+$white: #ececec;
+
+@import 'header';
+@import 'nav';
+@import 'home';
+@import 'app';
+@import 'gallery';
+
+

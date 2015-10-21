@@ -1,0 +1,42 @@
+@import 'base';
+
+
+body {
+	font-family: bitter, serif;
+	font-size: 62.5%;
+	font-weight: regular;
+	background: linear-gradient(to bottom, #efefef 8%,#dbdbdb 100%), url('../assets/styling/patterns/bg.jpg');
+	background-blend-mode: multiply;
+
+	/*better quality fontface*/
+   	-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-smoothing: antialiased;
+    font-smoothing: grayscale;
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+button:focus, a:focus {
+	outline:0;
+}
+
+.error, .info {
+	position: absolute;
+	margin-left: 555px;
+	top: 560px;
+	color: black;
+	font-family: 'sean';
+	color: #be3c34;
+	font-size: 1.5em;
+	width: 340px;
+	text-align: center;
+}
+
+.info {
+	color: #4d8952;
+}
+

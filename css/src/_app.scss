@@ -1,0 +1,185 @@
+.practice {
+	background-image: url('../assets/styling/app/bgimg.png');
+	width: 684px;
+	height: 417px;
+	position: relative;
+	z-index: 1;
+}
+
+.applicatie {
+	margin-left: 140px;
+
+	.line {
+		top: 170px;
+		left: -85px;
+	}
+}
+
+.settings {
+
+	.stroke {
+		width: 100px;
+		position: absolute;
+		top: 290px;
+		left: -100px;
+
+		li {
+			width: 120px;
+			height: 42px;
+			margin-bottom: 14px;
+			margin-left: 60px;
+			background-image: url('../assets/styling/app/dun.png');
+			-webkit-transition: 0.5s; /* For Safari 3.1 to 6.0 */
+    		transition: 0.5s;
+
+			&:hover {
+				margin-left: 10px;
+				cursor: pointer;
+			}
+		}
+
+		li:last-child {
+			margin-left: 50px;
+			background-image: url('../assets/styling/app/dik.png');
+
+			&:hover {
+				margin-left: 0;
+			}
+		}
+
+		li:first-child.select {
+			margin-left: 10px;
+		}
+
+		li:last-child.select {
+			margin-left: 0;
+		}
+	}
+
+	.color {
+		position: absolute;
+		top: 80px;
+		right: 15px;
+		width: 190px;
+
+		li {
+			position: relative;
+			width: 127px;
+			height: 45px;
+			-webkit-transition: 0.5s; /* For Safari 3.1 to 6.0 */
+    		transition: 0.5s;
+
+			&:hover {
+				margin-left: 64px;
+				cursor: pointer;
+			}
+
+			&:first-child {
+				background-image: url('../assets/styling/app/colors/geel.png');
+			}
+
+			&:nth-child(2) {
+				background-image: url('../assets/styling/app/colors/rood.png');
+			}
+
+			&:nth-child(3) {
+				background-image: url('../assets/styling/app/colors/blauw.png');
+			}
+
+			&:last-child {
+				margin-top: -10px;
+				background-image: url('../assets/styling/app/colors/zwart.png');
+			}
+		}
+	}
+}
+
+.pag2 {
+
+	.divider {
+		margin-top: 90px;
+		margin-bottom: 100px;
+	}
+}
+
+.last{
+		margin-top: 110px;
+	}
+
+.settings {
+
+	button {
+		z-index: 20;
+		position: absolute;
+		display: inline-block;
+		background: none;
+		background-image: url('../assets/styling/app/drawsprite.png');
+		background-position: 0 -80px;
+		width: 110px;
+		top: 20px;
+		height: 40px;
+		border: none;
+		left: 260px;
+	}
+
+	.save{
+
+		margin-top: 362px;
+		margin-left: 90px;
+
+		&:hover {
+			background-position: 0 40px;
+			cursor: pointer;
+		}
+	}
+
+	.clear {
+		margin-top: 362px;
+		margin-left: 230px;
+		background-position: 110px 0;
+
+		&:hover {
+			background-position: 110px -40px;
+			cursor: pointer;
+		}
+	}
+}
+
+.gal {
+
+	div {
+		position:relative;
+		width: 255px;
+		height: 175px;
+		background-image: url('../assets/styling/app/shoe.png');
+		float: left;
+		margin-left: 48px;
+	}
+
+	img {
+		position: relative;
+		top: 12px;
+		left: 2px;
+	}
+
+	p {
+		text-align: center;
+		font-family: 'sean';
+		color: #1f1f1f;
+		font-size: 1.4em;
+		margin-top: 50px;
+
+	}
+
+	p::before,
+	p::after {
+		content: url('../assets/styling/app/blob.png');
+		padding: 0 10px 0 10px;
+	}
+}
+
+.colorActive {
+	margin-left: 64px;
+}
+
+

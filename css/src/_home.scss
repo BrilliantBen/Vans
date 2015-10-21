@@ -1,0 +1,309 @@
+
+.intro {
+	margin-top: 134px;
+	margin-bottom: 10px;
+	position: relative;
+
+	h1 {
+		display: inline-block;
+		width: 401px;
+		height: 65px;
+		background-image: url('../assets/styling/home/title1.png');
+
+		span {
+			display: none;
+		}
+	}
+
+	.in {
+		margin-left: 90px;
+	}
+}
+
+.left {
+	float: left;
+	width: 340px;
+
+	p {
+		font-family: bitter, 'sans-serif';
+		color: #161616;
+		font-size: 1.6em;
+		line-height: 1.43em;
+		width: 292px;
+
+		strong {
+			font-family: bitterbold;
+		}
+	}
+
+	div {
+		-ms-transform: translate(20px,0) rotate(-1deg); /* IE 9 */
+		-webkit-transform: translate(20px,0) rotate(-1deg); /* Chrome, Safari, Opera */
+		transform: translate(20px,0) rotate(-1deg);
+	}
+
+	a {
+		float: right;
+		display: inline-block;
+		background-image: url('../assets/styling/home/introsprite.png');
+		width: 86px;
+		height: 42px;
+		margin-right: 145px;
+		margin-top: 20px;
+
+		&:hover {
+			background-position: 0 42px;
+		}
+
+		span {
+			display: none;
+		}
+	}
+}
+	a.videonavsprite {
+		background-image: url('../assets/styling/home/videonavsprite.png');
+	}
+
+	.line {
+		background-image: url('../assets/styling/home/line.png');
+		width: 230px;
+		height: 74px;
+		position: absolute;
+		top: 102px;
+		left: -75px;
+		z-index: -1;
+	}
+
+.right {
+	float: left;
+	width: 416px;
+	position: relative;
+	top: -55px;
+	margin-left: 45px;
+}
+
+.divider {
+	display: inline-block;
+	background-image: url('../assets/styling/dividers/div.png');
+	width: 840px;
+	height: 7px;
+	margin-left: 50px;
+}
+
+.steps {
+	margin-top: 70px;
+	margin-left: 30px;
+
+	div {
+		-ms-transform: translate(0,0) rotate(0deg); /* IE 9 */
+		-webkit-transform: translate(0,0) rotate(0deg); /* Chrome, Safari, Opera */
+		transform: translate(0,0) rotate(0deg);
+   	}
+
+   	.left {
+	margin-bottom: 80px;
+	width: 230px;
+
+		a {
+			background-image: url('../assets/styling/home/navsprite.png');
+			width: 170px;
+
+			}
+		}
+
+		p {
+			font-family: bitterbold;
+			font-weight: light;
+			font-size: 1.5em;
+			color: #383838;
+			width: 215px;
+			margin-top: 10px;
+		}
+
+		span {
+			display: none;
+		}
+
+		article:first-child {
+			margin-right: 50px;
+			margin-left: 0;
+
+			h1 {
+				background-position: 0 0;
+
+			}
+
+			p {
+				margin-left: 20px;
+			}
+
+			a {
+				background-position: 0 0;
+				margin-right: 40px;
+			}
+
+			a:hover {
+				background-position: 0.5px 50px;
+			}
+
+			div {
+				-ms-transform: translate(0,0) rotate(-0.3deg); /* IE 9 */
+				-webkit-transform: translate(0,0) rotate(-0.3deg); /* Chrome, Safari, Opera */
+				transform: translate(0,0) rotate(-0.3deg);
+			}
+		}
+
+		article {
+			width: 230px;
+			float: left;
+			margin-left: 50px;
+			@include clearfix;
+
+			a {
+				margin-right: 45px;
+				background-position: 170px 0;
+			}
+
+			a:hover {
+				background-position: 170px 50.3px;
+			}
+
+			h1 {
+				background-image: url('../assets/styling/home/stepsprite.png');
+				width: 250px;
+				height: 147px;
+				background-position: 550px 0;
+			}
+
+			div {
+				-ms-transform: translate(0,0) rotate(-0.8deg); /* IE 9 */
+				-webkit-transform: translate(0,0) rotate(-0.8deg); /* Chrome, Safari, Opera */
+				transform: translate(0,0) rotate(-0.8deg);
+			}
+
+			p {
+				margin-left: 0;
+			}
+		}
+
+		article:last-child {
+			margin-left: 100px;
+
+			a {
+				margin-right: 45px;
+				background-position: 355px 0;
+
+			}
+
+			a:hover {
+				background-position: 354px 50px;
+
+			}
+			h1 {
+				background-position: 220px 0;
+				width: 230px;
+
+			}
+			div {
+				-ms-transform: translate(0,0) rotate(0.3deg); /* IE 9 */
+				-webkit-transform: translate(0,0) rotate(0.3deg); /* Chrome, Safari, Opera */
+				transform: translate(0,0) rotate(0.3deg);
+			}
+
+			p {
+				width: 220px;
+			}
+		}
+	}
+
+	.frame {
+		position: absolute;
+		display: inline-block;
+		width: 709px;
+		height: 428px;
+		background-image: url('../assets/video/frame.png');
+		background-position: -15px -15px;
+}
+
+.center {
+	margin-left: 120px;
+}
+
+video {
+	margin-top: 25px;
+	margin-left: 20px;
+}
+
+.video {
+	margin-top: 85px;
+	margin-bottom: 110px;
+}
+
+.foot {
+	z-index: -10;
+	margin-top: -320px;
+	margin-left: 630px;
+	position: absolute;
+	width: 150px;
+	height: 273px;
+	background-image: url('../assets/video/foot.png');
+}
+
+button {
+	z-index: 20;
+	position: absolute;
+	display: inline-block;
+	background: none;
+	background-image: url('../assets/video/videosprite.png');
+	background-position: 0 -47px;
+	width: 110px;
+	height: 50px;
+	border: none;
+}
+
+.play{
+	margin-top: 372px;
+	margin-left: 90px;
+
+	&:hover {
+		background-position: 0 0;
+		cursor: pointer;
+	}
+}
+
+.pause {
+	margin-top: 372px;
+	margin-left: 230px;
+	background-position: 110px -47px;
+
+	&:hover {
+		background-position: 110px 0;
+		cursor: pointer;
+	}
+}
+
+span {
+	display: none;
+}
+
+.pen2 {
+	position: absolute;
+	margin-left: 362px;
+	margin-top: 322px;
+	width: 344px;
+	height: 104px;
+	background-image: url('../assets/video/pen.png');
+}
+
+.div2 {
+	margin-top: 70px;
+	display: inline-block;
+	background-image: url('../assets/styling/dividers/rib.png');
+	width: 910px;
+	height: 52px;
+	margin-left: 20px;
+}
+
+.steps .left a {
+	border: none;
+}

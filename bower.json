@@ -1,0 +1,13 @@
+{
+  "name": "MAIII",
+  "version": "0.0.0",
+  "homepage": "https://github.com/KevinRousseau/whiteboard-group1",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

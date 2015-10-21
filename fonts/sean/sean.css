@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'sean';
+    src: url('sean.eot');
+    src: url('sean.eot?#iefix') format('embedded-opentype'),
+         url('sean.woff2') format('woff2'),
+         url('sean.woff') format('woff'),
+         url('sean.ttf') format('truetype'),
+         url('sean.svg#sean') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
